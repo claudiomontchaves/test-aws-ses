@@ -11,8 +11,8 @@ import com.amazonaws.services.simpleemail.model.SendEmailRequest;
 
 public class Main {
 
-    private static final String FROM = "cchaves@agap2.pt";
-    private static final String TO = "cchaves@agap2.pt";
+    private static final String FROM = "from@test.com";
+    private static final String TO = "to@test.com";
     private static final String SUBJECT = "Test AWS SES";
     private static final String HTMLBODY = "<h1>Test AWS SES</h1>";
 
